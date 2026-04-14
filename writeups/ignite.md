@@ -84,14 +84,3 @@ password: mememe
 - Linux terminal
 
 ---
-
-## 📚 Lessons Learned
-- robots.txt can reveal sensitive hidden directories
-- CMS default credentials are often weak
-- Always check configuration files for hardcoded passwords
-- Exploit databases are crucial in real-world attacks
-
----
-
-## 🧾 Status
-✔ Completed

